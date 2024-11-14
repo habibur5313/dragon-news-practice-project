@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 //  import { FaEye, FaStar } from 'react-icons/fa';
  
  const NewsCard = ({News}) => { 
@@ -21,7 +22,7 @@ return (
                                                                <p className="mt-2">{details}</p>
                                                                 <div className="flex items-center mt-4"> 
                                                                                 {/* <FaEye className="text-gray-500 mr-1" /> */}
-                                                                                 <span>{views} views</span>
+                                                                                 <Link to={`/news/${News._id}`}>{views} views</Link>
                                                                                   </div>
                                                                                    </div>
                                                                                     </div>)}

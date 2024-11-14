@@ -3,7 +3,6 @@ import Header from "../Componenst/Header";
 import LatestNews from "../Componenst/LatestNews";
 import Navbar from "../Componenst/Navbar";
 import AllCategory from "./Home.Layout/AllCategory";
-import Login from "./Home.Layout/Login";
 
 
 
@@ -18,7 +17,7 @@ const HomeLayout = () => {
                                          <main className="grid md:grid-cols-12 gap-5">
                                           <aside className="col-span-3"><AllCategory></AllCategory></aside> 
                                           <div className="col-span-6"><Outlet></Outlet></div> 
-                                          <aside className="col-span-3"><Login></Login></aside>                  
+                                          <aside className="col-span-3"><h1>hello</h1></aside>                  
                                         </main>                  
                                         </div>
                     );
